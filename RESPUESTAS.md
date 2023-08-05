@@ -18,6 +18,10 @@ El servicio se llama flyway
 
 ## ETAPA 2
 
-Escribe respuestas de la etapa 2 acá
+¿Qué pasa si cambias el nombre del servicio de `postgres` a `db`? ¿Qué otros cambios tendrías que hacer?
+
+Se debe modificar el nombre de la dependencia del servicio flyway postgres ==> db
+Se debe cambiar la variable de entorno POSTGRES_SERVER ==> db en el archivo .env
+
 
 ...
