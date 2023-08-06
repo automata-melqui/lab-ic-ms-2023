@@ -37,4 +37,10 @@ Que el archivo `docker-compose.yml` levanta un contenedor utilizando las instruc
 ¿Qué crees que hace el atributo `context` debajo de `build` (está en la linea 6 del archivo `docker-compose.yml`)?
 
 Agrega otra raíz o path donde debe existir un `Dockerfile` para generar un contenedor.
-...
+
+## ETAPA 4
+
+¿Cuál es la diferencia? 
+La diferencia es el directorio raiz que ocupa el microservicio para operar. "/app" ==> "/usr/app"
+¿Qué pasa si los dejas iguales?
+No encontrará los volumenes definidoe en el docker-compose.
